@@ -8,8 +8,6 @@ import Button from "../../../components/Button";
 
 const logo: string = require("../../../assets/images/google-logo.svg").default;
 
-<img src={logo} alt="logo" />;
-
 export default {
   /* 👇 The title prop is optional.
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
