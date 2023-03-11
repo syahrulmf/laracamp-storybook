@@ -82,19 +82,19 @@ function Input(props: Props) {
               cy="52"
               r="50"
               className="stroke-soft-grey"
-              stroke-width="4"
+              strokeWidth="4"
             />
             <circle
               cx="52"
               cy="36"
               r="18"
               className="stroke-soft-grey"
-              stroke-width="4"
+              strokeWidth="4"
             />
             <path
               d="M84.3013 90.5C79.0175 77.8722 66.5447 69 51.9998 69C37.4548 69 24.982 77.8722 19.6982 90.5"
               className="stroke-soft-grey"
-              stroke-width="4"
+              strokeWidth="4"
             />
           </svg>
         )}
@@ -156,12 +156,12 @@ function Input(props: Props) {
                 cy="14"
                 r="13"
                 className="stroke-purple"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M14 1C21.1797 1 27 6.8203 27 14C27 18.0209 25.1745 21.6154 22.3071 24"
                 className="stroke-purple"
-                stroke-width="2"
+                strokeWidth="2"
               />
             </svg>
           </span>
@@ -178,9 +178,9 @@ function Input(props: Props) {
                 <path
                   d="M1.8335 4L4.46508 6.5L10.1668 1.5"
                   className="stroke-white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>

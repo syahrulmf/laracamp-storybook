@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable no-empty-pattern */
 import React from "react";
 
 import Button from "../../../components/Button";

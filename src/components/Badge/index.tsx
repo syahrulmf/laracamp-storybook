@@ -16,8 +16,4 @@ function Badge({ children, state, className }: Props) {
   return <span className={combineClassName.join(" ")}>{children}</span>;
 }
 
-// Badge.defaultProps: {
-//   state:
-// }
-
 export default Badge;

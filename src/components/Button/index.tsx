@@ -61,12 +61,12 @@ function Button(props: Props) {
               cy="14"
               r="13"
               className="stroke-white"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <path
               d="M14 1C21.1797 1 27 6.8203 27 14C27 18.0209 25.1745 21.6154 22.3071 24"
               className="stroke-white"
-              stroke-width="2"
+              strokeWidth="2"
             />
           </svg>
         </span>

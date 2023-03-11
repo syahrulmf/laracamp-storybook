@@ -1,5 +1,5 @@
 type Props = {
-  color?: "light" | "dark";
+  color?: string;
   className?: string;
 };
 

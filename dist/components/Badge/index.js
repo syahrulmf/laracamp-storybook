@@ -13,7 +13,4 @@ function Badge({ children, state, className }) {
     ];
     return (0, jsx_runtime_1.jsx)("span", { className: combineClassName.join(" "), children: children });
 }
-// Badge.defaultProps: {
-//   state:
-// }
 exports.default = Badge;
