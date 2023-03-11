@@ -1,6 +1,6 @@
 // .storybook/manager.js
 
-import { addons } from "@storybook/addon-essentials";
+import { addons } from "@storybook/addons";
 import laracamp from "./laracamp";
 
 addons.setConfig({
