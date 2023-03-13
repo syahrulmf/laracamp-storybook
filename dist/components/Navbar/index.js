@@ -8,7 +8,7 @@ const react_1 = require("react");
 const Brand_1 = __importDefault(require("../Brand"));
 function Navbar({ children, cta, className, pathname }) {
     const [isMenuActive, setMenuActive] = (0, react_1.useState)(false);
-    return ((0, jsx_runtime_1.jsx)("header", { className: "shadow-[0px_6px_60px_rgba(22,_28,_51,_0.06)]", children: (0, jsx_runtime_1.jsxs)("div", { className: "px-4 container flex justify-between py-8", children: [(0, jsx_runtime_1.jsx)(Brand_1.default, { className: "w-44 h-10 mr-12 flex items-center" }), (0, jsx_runtime_1.jsxs)("button", { className: "relative z-30 w-7 h-7 flex lg:hidden flex-col items-center justify-center transition-all gap-y-1 hover:gap-y-2", onClick: () => setMenuActive((prev) => !prev), children: [(0, jsx_runtime_1.jsx)("span", { className: [
+    return ((0, jsx_runtime_1.jsx)("header", { className: "shadow-[0px_6px_60px_rgba(22,_28,_51,_0.06)]", children: (0, jsx_runtime_1.jsxs)("div", { className: "px-4 container mx-auto flex justify-between items-center py-8", children: [(0, jsx_runtime_1.jsx)(Brand_1.default, { className: "w-44 h-10 mr-12 flex items-center" }), (0, jsx_runtime_1.jsxs)("button", { className: "relative z-30 w-7 h-7 flex lg:hidden flex-col items-center justify-center transition-all gap-y-1 hover:gap-y-2", onClick: () => setMenuActive((prev) => !prev), children: [(0, jsx_runtime_1.jsx)("span", { className: [
                                 "w-7 h-1 bg-purple transition-all",
                                 isMenuActive ? "absolute top-3 rotate-45" : "rotate-0",
                             ].join(" ") }), (0, jsx_runtime_1.jsx)("span", { className: [
