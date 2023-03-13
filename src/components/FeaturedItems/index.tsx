@@ -2,7 +2,7 @@ type TFeature = {
   key: string;
   title: string;
   paragraph: string;
-  icon: string;
+  icon: any;
 };
 
 type Props = {
