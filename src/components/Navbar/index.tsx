@@ -17,7 +17,7 @@ function Navbar({ children, cta, className, pathname }: Props) {
 
   return (
     <header className="shadow-[0px_6px_60px_rgba(22,_28,_51,_0.06)]">
-      <div className="px-4 container flex justify-between py-8">
+      <div className="px-4 container mx-auto flex justify-between items-center py-8">
         <Brand className="w-44 h-10 mr-12 flex items-center" />
 
         <button
