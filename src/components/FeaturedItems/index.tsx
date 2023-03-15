@@ -4,7 +4,7 @@ type TFeature = {
   key: string;
   title: string;
   paragraph: string;
-  icon: string | ReactNode;
+  icon: ReactNode;
 };
 
 type Props = {
@@ -19,11 +19,7 @@ function FeaturedItems({ features }: Props) {
           <div className="group" key={feature.key}>
             <div className="flex flex-col gap-y-3 items-center md:items-start">
               <span className="w-14 h-14 flex items-center justify-center rounded-full group-odd:bg-green group-even:bg-purple">
-                {typeof feature.icon === "string" ? (
-                  <img src={feature.icon} alt={feature.title} />
-                ) : (
-                  feature.icon
-                )}
+                {feature.icon}
               </span>
               <h6 className="text-navy font-medium text-xl">{feature.title}</h6>
               <p className="text-grey">{feature.paragraph}</p>
